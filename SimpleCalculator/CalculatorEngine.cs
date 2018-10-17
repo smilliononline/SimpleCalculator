@@ -3,9 +3,9 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace SimpleCalculator
 {
-    internal class CalculatorEngine
+    public class CalculatorEngine
     {
-        internal double Calculate(string operation, double firstNumber, double secondNumber)
+        public double Calculate(string operation, double firstNumber, double secondNumber)
         {
             double result;
 

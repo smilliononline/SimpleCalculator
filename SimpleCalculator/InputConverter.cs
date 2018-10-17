@@ -2,7 +2,7 @@
 
 namespace SimpleCalculator
 {
-    internal class InputConverter
+    public class InputConverter
     {
         public double ConvertInputToNumeric(string v)
         {
